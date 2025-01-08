@@ -1,4 +1,4 @@
-// The function creates a string representing a triangle with the given character and height.
+//Function creates a string representing a triangle with the given character and height.
 function triangle(char,height){
     let result = "";
     for (let i = 1; i <= height; i++){
