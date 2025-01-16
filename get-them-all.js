@@ -10,7 +10,7 @@ function getArchitects(){
 function getClassical(){
     return[
         document.querySelectorAll("a.classical"),
-        document.querySelectorAll("a.:not(.classical"),
+        document.querySelectorAll("a:not(.classical)"),
     ];
 }
 
